@@ -235,6 +235,9 @@
       ignoreSpace = true;
       size = 100000000;
     };
+    shellAliases = {
+      laz = "lazygit";
+    };
   };
 
   # Let Home Manager install and manage itself.
