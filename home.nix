@@ -237,6 +237,7 @@
     };
     shellAliases = {
       laz = "lazygit";
+      sudo = "sudo -E ";
     };
   };
 
