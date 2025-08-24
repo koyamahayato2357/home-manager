@@ -28,6 +28,7 @@
     hyprpaper
     luajit_2_1
     lua-language-server
+    nixd
     plemoljp-nf
     ripgrep
     rustup
