@@ -21,17 +21,24 @@
     brightnessctl
     btop
     clang_21
+    cmake
     fastfetch
     gh
+    gnumake
     hyprpaper
+    luajit_2_1
+    lua-language-server
     plemoljp-nf
     ripgrep
     rustup
+    terminaltexteffects
     vim
     vivaldi
     wget
     zvm
   ];
+
+  home.sessionPath = [ "$HOME/.local/bin" "$HOME/.zvm/bin" ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
@@ -118,6 +125,10 @@
     };
   };
   programs.lazygit.enable = true;
+  programs.neovide = {
+    enable = true;
+    settings.fork = true;
+  };
   programs.starship = {
     enable = true;
     enableZshIntegration = true;
