@@ -121,7 +121,7 @@
     userEmail = "sundongxiaoshan202@gmail.com";
     extraConfig = {
       init.defaultBranch = "main";
-      core.editor = "vim";
+      core.editor = "nvim";
       credential.helper = "store";
       safe.directory = "/etc/nixos";
     };
