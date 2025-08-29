@@ -146,7 +146,7 @@
     xwayland.enable = true;
     systemd.enable = true;
     settings = {
-      monitor = ",preferred,auto,auto";
+      monitor = "eDP-1,2880x1800@60,auto,auto";
 
       "$mod" = "SUPER";
       "$terminal" = "foot";
