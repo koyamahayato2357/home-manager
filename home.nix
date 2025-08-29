@@ -150,8 +150,8 @@
 
       "$mod" = "SUPER";
       "$terminal" = "foot";
-      "$browser" = "vivaldi --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime";
-      "$subbrowser" = "microsoft-edge-dev --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime";
+      "$browser" = "vivaldi --enable-features=UseOzonePlatform,Vulkan --enable-unsafe-webgpu --ozone-platform=wayland --enable-wayland-ime";
+      "$subbrowser" = "microsoft-edge-dev --enable-features=UseOzonePlatform,Vulkan --enable-unsafe-webgpu --ozone-platform=wayland --enable-wayland-ime";
       exec-once = [ "fcitx5 -d" "hyprpaper" ];
       env = [
         "XCURSOR_SIZE,24"
