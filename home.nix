@@ -244,11 +244,12 @@
     };
   };
   programs.zsh = {
+    autocd = true;
+    autosuggestion.enable = true;
     enable = true;
     enableCompletion = true;
-    autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
-    autocd = true;
+    defaultKeymap = "vicmd";
     history = {
       ignoreAllDups = true;
       ignoreSpace = true;
