@@ -20,15 +20,20 @@
   home.packages = with pkgs; [
     brightnessctl
     btop
-    clang_21
     cmake
     fastfetch
     gh
     gnumake
     hyprpaper
+    llvmPackages_21.bintools-unwrapped
+    llvmPackages_21.clangUseLLVM
+    llvmPackages_21.clang-tools
+    llvmPackages_21.llvm
     luajit_2_1
     lua-language-server
     nixd
+    nodejs_latest
+    ollama
     plemoljp-nf
     ripgrep
     rustup
