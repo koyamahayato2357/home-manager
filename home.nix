@@ -1,8 +1,13 @@
 { config, pkgs, ... }:
 
+let
+  username = "sundo";
+  homeDirectory = "/home/${username}";
+in
+
 {
-  home.username = "sundo";
-  home.homeDirectory = "/home/sundo";
+  home.username = username;
+  home.homeDirectory = homeDirectory;
 
   home.stateVersion = "24.11";
 
