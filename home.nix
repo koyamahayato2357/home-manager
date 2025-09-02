@@ -42,6 +42,7 @@
     vim-startuptime
     vivaldi
     wget
+    yt-dlp
     zvm
   ];
 
@@ -82,6 +83,7 @@
     # EDITOR = "emacs";
   };
 
+  programs.cmus.enable = true;
   programs.foot = {
     enable = true;
     settings = {
