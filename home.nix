@@ -240,7 +240,9 @@ in
     shellAliases = {
       laz = "lazygit";
       sudo = "sudo -E";
-      home = "nvim ~/.config/home-manager/home.nix";
+      h = "nvim ~/.config/home-manager/home.nix";
+      hs = "home-manager switch";
+      ns = "sudo -E nix-os-rebuild switch";
     };
     initContent = "bindkey -v";
   };
