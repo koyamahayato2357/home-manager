@@ -260,7 +260,7 @@
       laz = "lazygit";
       sudo = "sudo -E ";
     };
-    initExtra = "bindkey -v";
+    initContent = "bindkey -v";
   };
 
   # Let Home Manager install and manage itself.
