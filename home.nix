@@ -270,7 +270,8 @@
     };
     shellAliases = {
       laz = "lazygit";
-      sudo = "sudo -E ";
+      sudo = "sudo -E";
+      home = "nvim ~/.config/home-manager/home.nix";
     };
     initContent = "bindkey -v";
   };
