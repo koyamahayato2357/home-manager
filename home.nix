@@ -100,6 +100,7 @@ in
       core.editor = "nvim";
       credential.helper = "store";
       safe.directory = "/etc/nixos";
+      pull.rebase = false;
     };
   };
   programs.lazygit.enable = true;
