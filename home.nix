@@ -251,7 +251,6 @@
     enable = true;
     enableCompletion = true;
     syntaxHighlighting.enable = true;
-    defaultKeymap = "vicmd";
     history = {
       ignoreAllDups = true;
       ignoreSpace = true;
@@ -261,6 +260,7 @@
       laz = "lazygit";
       sudo = "sudo -E ";
     };
+    initExtra = "bindkey -v";
   };
 
   # Let Home Manager install and manage itself.
