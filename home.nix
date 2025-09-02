@@ -38,6 +38,8 @@
   home.sessionPath = [ "$HOME/.local/bin" "$HOME/.zvm/bin" ];
 
   home.file = {
+    ".config/hypr/hyprpaper.conf".source = dots/hyprpaper.conf;
+    ".config/quickshell/shell.qml".source = dots/shell.qml;
   };
 
   home.sessionVariables = {
