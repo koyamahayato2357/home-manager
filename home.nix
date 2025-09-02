@@ -83,6 +83,7 @@
     EDITOR = "nvim";
   };
 
+  programs.bat.enable = true;
   programs.cmus.enable = true;
   programs.foot = {
     enable = true;
