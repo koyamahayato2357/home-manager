@@ -242,7 +242,7 @@ in
       sudo = "sudo -E";
       h = "nvim ~/.config/home-manager/home.nix";
       hs = "home-manager switch";
-      ns = "sudo -E nix-os-rebuild switch";
+      ns = "sudo -E nixos-rebuild switch";
     };
     initContent = "bindkey -v";
   };
