@@ -80,7 +80,7 @@
   #  /etc/profiles/per-user/sundo/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    EDITOR = "nvim";
   };
 
   programs.cmus.enable = true;
