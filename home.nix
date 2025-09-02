@@ -139,6 +139,17 @@
     enable = true;
     settings.fork = true;
   };
+  programs.nushell = {
+    enable = true;
+    environmentVariables = {
+      config.edit_mode = "vi";
+      EDITOR = "nvim";
+    };
+    shellAliases = {
+      n = "nvim";
+      sudo = "sudo -E";
+    };
+  };
   programs.starship = {
     enable = true;
     enableZshIntegration = true;
