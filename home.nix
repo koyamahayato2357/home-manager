@@ -29,6 +29,7 @@ in
     nodejs_latest
     ollama
     plemoljp-nf
+    qemu
     ripgrep
     rustup
     terminaltexteffects
