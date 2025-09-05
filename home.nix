@@ -140,6 +140,7 @@ in
       "$terminal" = "foot";
       "$browser" = "vivaldi --enable-features=UseOzonePlatform,Vulkan --enable-unsafe-webgpu --ozone-platform=wayland --enable-wayland-ime";
       "$subbrowser" = "microsoft-edge-dev --enable-features=UseOzonePlatform,Vulkan --enable-unsafe-webgpu --ozone-platform=wayland --enable-wayland-ime";
+      "$lock" = "hyprlock";
       exec-once = [ "fcitx5 -d" "hyprpaper" ];
       env = [
         "XCURSOR_SIZE,24"
@@ -201,6 +202,7 @@ in
         "$mod,E,exec,$subbrowser"
         "$mod,C,killactive"
         "$mod,M,exit"
+        "$mod,L,exec,$lock"
         "$mod,1,workspace,1"
         "$mod,2,workspace,2"
         "$mod,3,workspace,3"
@@ -226,6 +228,7 @@ in
       ];
     };
   };
+  programs.hyprlock.enable = true;
   programs.zsh = {
     autocd = true;
     autosuggestion.enable = true;
