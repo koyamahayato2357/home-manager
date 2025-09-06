@@ -62,7 +62,7 @@ in
       csd.size = 0;
       colors = {
         cursor = "111111 cccccc";
-        alpha = 0.1;
+        alpha = 1;
 	foreground = "f8f8f8";
         background = "171717";
         regular0 = "171717";
