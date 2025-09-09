@@ -34,7 +34,6 @@ in
     ripgrep
     rustup
     terminaltexteffects
-    vim
     vim-startuptime
     vivaldi
     wget
