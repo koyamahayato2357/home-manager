@@ -108,7 +108,6 @@ in
     enable = true;
     environmentVariables = {
       config.edit_mode = "vi";
-      EDITOR = "nvim";
     };
     shellAliases = import ./shellAliases.nix;
   };
