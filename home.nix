@@ -12,6 +12,7 @@ in
   home.stateVersion = "25.05";
 
   home.packages = with pkgs; [
+    asciinema_3
     brightnessctl
     btop
     cmake
@@ -25,6 +26,7 @@ in
     llvmPackages_21.llvm
     luajit_2_1
     lua-language-server
+    microsoft-edge
     nixd
     nodejs_latest
     ollama
