@@ -117,10 +117,7 @@ in
       config.edit_mode = "vi";
       EDITOR = "nvim";
     };
-    shellAliases = {
-      n = "nvim";
-      sudo = "sudo -E";
-    };
+    shellAliases = import ./shellAliases.nix;
   };
   programs.starship = {
     enable = true;
@@ -141,13 +138,7 @@ in
       ignoreSpace = true;
       size = 100000000;
     };
-    shellAliases = {
-      laz = "lazygit";
-      sudo = "sudo -E";
-      h = "nvim ~/.config/home-manager/home.nix";
-      hs = "home-manager switch";
-      ns = "sudo -E nixos-rebuild switch";
-    };
+    shellAliases = import ./shellAliases.nix;
     initContent = "bindkey -v";
   };
 
